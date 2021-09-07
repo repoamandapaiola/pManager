@@ -415,8 +415,8 @@ hr {
   width: 100%;
 }
 
-/* Services Item */
-.services-item {
+/* lancamentos Item */
+.lancamentos-item {
   padding: 20px;
   border-radius: 4px;
   text-align: center;
@@ -428,7 +428,7 @@ hr {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon {
+.lancamentos-item .icon {
   border: 1px solid #f1f1f1;
   width: 70px;
   height: 70px;
@@ -440,7 +440,7 @@ hr {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .icon i {
+.lancamentos-item .icon i {
   font-size: 30px;
   color: #F63854;
   line-height: 70px;
@@ -450,31 +450,31 @@ hr {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.services-item .services-content h3 {
+.lancamentos-item .lancamentos-content h3 {
   margin-top: 10px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.services-item .services-content h3 a {
+.lancamentos-item .lancamentos-content h3 a {
   font-size: 16px;
   color: #585b60;
 }
 
-.services-item .services-content h3 a:hover {
+.lancamentos-item .lancamentos-content h3 a:hover {
   color: #F63854;
 }
 
-.services-item:hover {
+.lancamentos-item:hover {
   box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
 
-.services-item:hover .icon {
+.lancamentos-item:hover .icon {
   background: #F63854;
 }
 
-.services-item:hover .icon i {
+.lancamentos-item:hover .icon i {
   color: #fff;
 }
 
@@ -746,8 +746,8 @@ hr {
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
-#hero-area {
-  background-image: url(../img/hero-area.svg);
+#meeiroarea {
+  background-image: url(../img/meeiro.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -757,7 +757,7 @@ hr {
   padding: 180px 0 80px;
 }
 
-#hero-area .contents .head-title {
+#meeiroarea .contents .head-title {
   color: #222222;
   font-size: 42px;
   font-weight: 700;
@@ -765,12 +765,12 @@ hr {
   margin-bottom: 10px;
 }
 
-#hero-area .contents .header-button {
+#meeiroarea .contents .header-button {
   margin-top: 20px;
   color: #222222;
 }
 
-#hero-area .contents .header-button .btn {
+#meeiroarea .contents .header-button .btn {
   margin-right: 10px;
 }
 

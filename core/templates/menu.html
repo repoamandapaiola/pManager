@@ -1,10 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+{% load static %}
+<header id="header-wrap">
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a href="{% url 'index' %}" class="navbar-brand">Julio Paiola - Sitio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="lni-menu"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end clearfix">
+          <li class="nav-item active">
+            <a class="nav-link" href="#meeiroarea">
+              Meeiros
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#lancamentos">
+              Lançamentos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">
+              Lançamentos de venda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">
+              Clientes de venda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonial">
+              Informações
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              Despesas
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

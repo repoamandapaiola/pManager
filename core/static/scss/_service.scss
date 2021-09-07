@@ -1,5 +1,5 @@
-/* Services Item */
-.services-item{
+/* lancamentos Item */
+.lancamentos-item{
 	padding: 20px;
 	border-radius: 4px;
 	text-align: center;
@@ -29,7 +29,7 @@
 		    -o-transition: all 0.3s ease-in-out 0s;
 		}
 	}
-	.services-content{
+	.lancamentos-content{
 		h3{
 			margin-top: 10px;
 			font-weight: 500;
@@ -45,10 +45,10 @@
 		}
 	}
 }
-.services-item:hover{
+.lancamentos-item:hover{
 	box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
 }
-.services-item:hover .icon{
+.lancamentos-item:hover .icon{
 	background: $preset;
 	i{
 		color: #fff;
